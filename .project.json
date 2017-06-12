@@ -42,11 +42,7 @@
   },
   "hcpdeploy": {
     "account": "p1941060158trial",
-    "name": "testappl",
-<<<<<<< HEAD
-    "lastVersionWeTriedToDeploy": "1.0.2"
-=======
     "lastVersionWeTriedToDeploy": "1.0.3"
->>>>>>> 53121037c863af7b8561e413a8f4e0afa022f16f
+
   }
 }
