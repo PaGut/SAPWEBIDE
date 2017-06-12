@@ -1,9 +1,10 @@
-<mvc:View controllerName="git.testTest_Appl.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="git.testTest_Appl.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+				    <sap.ushell.ui.footerbar:AddBookmarkButton text="Button" width="100px" icon="sap-icon://add-document" xmlns:sap.ushell.ui.footerbar="sap.ushell.ui.footerbar" id="__button0" activeIcon="sap-icon://accelerated"/>
+				</content>
 			</Page>
 		</pages>
 	</App>
